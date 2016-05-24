@@ -1,0 +1,31 @@
+Project 1: Introduction to Python—sets, lists, dictionaries and comprehensions.
+
+https://spark-public.s3.amazonaws.com/matrix/python_lab.pdf
+
+Task 1: Use Python to find the number of minutes in a week.
+Task 2: Use Python to find the remainder of 2304811 divided by 47 without using the modulo operator %.
+Task 3: Enter a Boolean expression to test whether the sum of 673 and 909 is divisible by 3.
+Task 4: Assign the value -9 to x and 1/2 to y. Predict the value of the following expression, then enter it to check your prediction: 
+2**(y+1/2) if x+10<10 else 2**(y-1/2)
+Task 5: Write a comprehension over {1,2,3,4,5} whose value is the set of the squares of the first five positive integers.
+Task 6: Write a comprehension over {0,1,2,3,4} whose value is the set consisting of the first five powers of two, starting with 2^0.
+Task 7: The value of the previous comprehension:
+			{x*y for x in {1,2,3} for y in {2,3,4}}
+is a seven-element set. Replace {1,2,3} and {2,3,4} with two other element sets so that the value becomes a nine-element set.
+Task 8: Replace {1,2,3} and {2,3,4} in the previous comprehension with two disjoint three-element sets so that the value becomes a five-element set. 
+Task 9: Assume that S and T are assigned sets. Without using the intersection operator &, write a comprehension over S whose value is the intersection of S and T. Hint: Use a membership testing a filter at the end of the comprehension.
+	Try out your comprehension with S = {1,2,3,4} and T = {3,4,5,6}
+Task 10: Write and a expression whose value is the average of the elements of the list [20, 10, 15, 75].
+Task 11: Write a double comprehension over the lists [‘A’, ‘B’, ‘C’] and [1, 2, 3] whose value is the list of all possible two-element lists [letter, number]. 
+Task 12: Suppose LofL has been assigned a list whose elements are themselves lists of numbers. Write an expression that evaluates to the sum of all the numbers in all lists. The expression has the form: 
+					sum([sum(…
+and includes one comprehension. Test your expression after assigning [[.25, .75, .1], [-1, 0], [4,4,4,4]] to LofL. Note that your expression should work for a list of any length. 
+Task 13: Suppose S is a set of integers, e.g. {-4,-2,1,2,5,0}. Write a triple comprehension whose value is a list of all three-element tuples (i,j,k) such that i,j,k are elements of S whose sum is zero.
+Task 14: Modify the comprehension of the previous task so that the resulting list does not include (0,0,0). 
+Task 15: Further modify the expression so that its value is not the list of all such tuples but is the first such tuple. 
+Task 16: Find an example of a list L such that len(L) and len(list(set(L))) are different.
+Task 17: Write a comprehension over a range of the form range(n) such that the value of the comprehension is the set of odd numbers from 1 to 99.
+Task 18: Assign to L the list consisting of the first five letters [‘A’,’B’,’C’,’D’,’E’]. Next, use L in an expression whose value is:
+		[(0, ‘A’), (1, ‘B’), (2, ‘C’), (3, ‘D’), (4, ‘E’)]
+Your expression should use a range and a zip, but should not use a comprehension.
+Task 19: Starting from the lists [1-0, 25, 40] and [1, 15, 20], write a comprehension whose value is the three-element list in which the first element is the sum of 10 and 1, the second is the sum of 25 and 15, and the third is the sum of 40 and 20. Your expression should use zip but not list.
