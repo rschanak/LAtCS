@@ -1,5 +1,7 @@
 Project 1: Introduction to Python—sets, lists, dictionaries and comprehensions.
 
+https://spark-public.s3.amazonaws.com/matrix/python_lab.pdf
+
 Task 1: Use Python to find the number of minutes in a week.
 Task 2: Use Python to find the remainder of 2304811 divided by 47 without using the modulo operator %.
 Task 3: Enter a Boolean expression to test whether the sum of 673 and 909 is divisible by 3.
