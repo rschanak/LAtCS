@@ -1,4 +1,4 @@
 A GitHub repo used for projects at: 
-https://class.coursera.org/matrix-002/assignment/view?assignment_id=57
+https://class.coursera.org/matrix-002
 
-Used so I can track changes that I make. 
+Created to further familiarize myself with Python and GitHub.
